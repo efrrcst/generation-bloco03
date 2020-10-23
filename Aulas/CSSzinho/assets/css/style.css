@@ -1,0 +1,20 @@
+/*
+
+estilos da page indexzicho.html
+<!-- p1 identificador do paragrafo com classe p1, pode usar em varios -->
+
+*/
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/*
+estilos da page contatichos.html
+*/
