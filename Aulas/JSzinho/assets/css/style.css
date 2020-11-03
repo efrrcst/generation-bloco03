@@ -13,6 +13,19 @@ estilos da page indexzicho.html
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 0 auto;
+}
+
+.container2 {
+  text-align: center;
+}
+
+.content {
+  flex-direction: column;
+}
+
+img {
+  object-fit: contain;
 }
 
 /*

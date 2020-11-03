@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <title>Olá, mundo!</title>
+  </head>
+  <body>
+    <div>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+      <a class="navbar-brand text-light"" href="#">Hello, tutupom?</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado"
+        aria-expanded="false"
+        aria-label="Alterna navegação"
+      >
+      <!--tag nav=navegação
+      lg = large
+      light =estilo
+      bg-light=estilo claro-->
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <!--Inicio do menu-->
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="#"
+              >Home<span class="sr-only">(página atual)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light"" href="#">Sobre</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-light""
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >Redes Sociais</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">LinkedIn</a>
+              <a class="dropdown-item" href="#">GitHub</a>
+              <a class="dropdown-item" href="#">E-mail</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Instagram</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled text-dark href="#">Desativado</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar"
+          />
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+            Pesquisar
+          </button>
+        </form>
+      </div>
+    </nav>
+  </div>
+    <!--Fim do menu-->
+
+    <!--1 Imagem apresentação 
+          Texto loren apresentação (Nome e profissão)-->
+
+  <div class="">
+
+      <div class="row mt-5 d-flex justify-content-center">
+
+         <div class="col-md-2 p-0">
+            <div class="bg-danger">4 colunas</div>
+         </div>
+
+         <div class="col-md-2 p-0">
+            <div class="bg-warning">4 colunas</div>
+         </div>
+
+         <div class="col-md-2 p-0">
+          <div class="bg-danger">4 colunas</div>
+       </div>
+
+         <div class="col-md-2 p-0">
+            <div class="bg-info">4 colunas</div>
+         </div>
+
+      </div>
+
+    <!--2 Techs que utilizo
+          Título, o que gosto e o que uso e qual o foco-->
+    <!--3 Experiência profissional/voluntaria 
+          Agr habilidades programação-->
+    <!--4 Comentarios de profisionais
+          que tramparam/estudaram comigo-->
+    <!--5 Contato, redes sociais
+          uma foto/ilustração minha-->
+    <!--Inicio contato e endereço-->
+    <div>
+      <div class="row mt-5 d-flex justify-content-center">
+
+         <div class="col-md-4">
+           <div class="bg-danger">4 colunas</div>
+           <form onsubmit="sendForm()" class="col mt-2">
+            <h2>Preencha:</h2>
+            <label for="nome">Nome: </label> <br />
+            <input type="text" id="nome"/>
+            <br />
+            <br />
+            <label for="email">E-mail: </label> <br />
+            <input type="email" id="email" />
+            <br />
+            <br />
+            <label for="assunto">Assunto: </label> <br />
+            <textarea name="assunto" id="assunto" cols="22" rows="18"></textarea>
+            <br />
+            <br />
+            <button type="submit">Enviar</button>
+          </form>
+
+        </div>
+        
+        <div class="col-md-4">
+          <div class="bg-warning">4 colunas</div>
+          <h2>Endereço:</h2>
+         
+          <p>Rua Evandro Carlos de Andrade, 160</p>
+          <p>São Paulo - SP</p>
+         
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233964.71262406232!2d-46.83773798359376!3d-23.615138700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50ce5a5df547%3A0x333962e9faf53ac9!2sTV%20GLOBO%20-%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1603398077586!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="300"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <!--Inicio contato e endereço-->
+
+
+    <!-- Scripts necessários para utilização dos cod JS no bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </div>
+  </body>
+</html>
